@@ -3,28 +3,28 @@ The following are the CSS and style organization coding styles that should be co
 
 
 ##Table of Contents
-* [ HTML ] (#HTML)
-* [ CSS ] (#CSS)
-* [ Javascript ] (#Javascript)
-* [ Ruby ] (#Ruby)
-* [ Rails ] (#Rails)
+* [ HTML ](#HTML)
+* [ CSS ](#CSS)
+* [ Javascript ](#Javascript)
+* [ Ruby ](#Ruby)
+* [ Rails ](#Rails)
 
 
 # CSS Code Standards
 
 ##Table of Contents
-* [Terminology] (#Terminology)
-* [Properties] (#Properties)
-* [Values] (#Values)
-* [Selectors] (#Selectors)
-* [Nesting & Specificity] (#Nesting)
-* [Headings] (#Headings)
-* [Comments] (#Comments)
+* [Terminology](#Terminology)
+* [Properties](#Properties)
+* [Values](#Values)
+* [Selectors](#Selectors)
+* [Nesting & Specificity](#Nesting)
+* [Headings](#Headings)
+* [Comments](#Comments)
 * [Variables](#Variables)
-* [Multiple Selectors] (#Multiple Selectors)
-* [Naming Conventions] (#Naming Conventions)
-* [Styles Organization] (#Styles Organization)
-* [Further Reading] (#Further Reading)
+* [Multiple Selectors](#Multiple Selectors)
+* [Naming Conventions](#Naming Conventions)
+* [Styles Organization](#Styles Organization)
+* [Further Reading](#Further Reading)
 
 
 ##Terminology
