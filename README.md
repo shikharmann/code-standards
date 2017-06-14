@@ -21,10 +21,10 @@ The following are the CSS and style organization coding styles that should be co
 * [Headings](#Headings)
 * [Comments](#Comments)
 * [Variables](#Variables)
-* [Multiple Selectors](#Multiple Selectors)
-* [Naming Conventions](#Naming Conventions)
-* [Styles Organization](#Styles Organization)
-* [Further Reading](#Further Reading)
+* [Multiple Selectors](#Multiple-Selectors)
+* [Naming Conventions](#Naming-Conventions)
+* [Styles Organization](#Styles-Organization)
+* [Further Reading](#Further-Reading)
 
 
 ##Terminology
