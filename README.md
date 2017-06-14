@@ -90,7 +90,7 @@ Multiple selectors should each be on a single line, with no space after each com
 	}
 
 ## Headings
-Every file needs a header to describe what it’s about, and subheaders for each subsection. 
+Every file needs a header to describe what the file is for, and subheaders for each subsection. 
 
 / c-card.scss
 
@@ -102,7 +102,7 @@ Every file needs a header to describe what it’s about, and subheaders for each
 	...
 	
 	
-Subsections are defined either by a new subcomponent or modifiers
+Subsections are defined for both subcomponent and modifiers
 
 / c-card.scss
 	
@@ -147,11 +147,11 @@ Comments should be written for anything that might be unclear, as well as anytim
 
 	
 ## Variables
-Variables should be created for anything that is used more than once and should always be stored in `variables.scss`
+Variables should be created for anything that is used more than once and should always be stored in `variables.scss`.
 Variables should be organzied into subsections with headings. 
 
 ## Naming Conventions
-In order to manage a large codebase with a team of developers, having a set naming convention is necessary in order to keep the styles and code base managable.
+In order to manage a large codebase with a team of developers, having a set naming convention is necessary to keep the styles and code base managable.
 
 BEM is a naming convention 
 
