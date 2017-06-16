@@ -9,7 +9,7 @@
 * [Headings](#headings)
 * [Comments](#comments)
 * [Variables](#variables)
-* [Multiple Selectors](#multiple-celectors)
+* [Multiple Selectors](#multiple-selectors)
 * [Naming Conventions](#naming-conventions)
 * [Further Reading](#further-reading)
 
