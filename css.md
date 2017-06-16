@@ -32,10 +32,10 @@ Every declaration should be on its own line below the opening brace. Each proper
 
 For example:
 
-  .card {
+  `.card {
     display: block;
-      margin: 20px;     
-  }
+     margin: 20px;     
+  }`
 
 
 ## Values
