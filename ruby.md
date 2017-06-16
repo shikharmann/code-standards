@@ -1,4 +1,4 @@
-# Ruby Code Standards
+# Ruby & Rails Code Standards
 
 ## Table of Contents
 * [Indentation](#indentation)
