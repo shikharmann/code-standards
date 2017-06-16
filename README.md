@@ -5,10 +5,10 @@ The following are the CSS and style organization coding styles that should be co
 
 
 ## Table of Contents
-* [ HTML ](#HTML)
+* [ HTML ](html.md)
 * [ CSS ](css.md)
-* [ Javascript ](#Javascript)
-* [ Ruby ](#Ruby)
-* [ Rails ](#Rails)
+* [ Javascript ](js.md)
+* [ Ruby ](ruby.md)
+* [ Rails ](rails.md)
 
 
