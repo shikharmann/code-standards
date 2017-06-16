@@ -2,16 +2,16 @@
 
 ## Table of Contents
 * [Terminology](#terminology)
-* [Properties](#Properties)
-* [Values](#Values)
-* [Selectors](#Selectors)
-* [Nesting & Specificity](#Nesting)
-* [Headings](#Headings)
-* [Comments](#Comments)
-* [Variables](#Variables)
-* [Multiple Selectors](#Multiple-Selectors)
-* [Naming Conventions](#Naming-Conventions)
-* [Further Reading](#Further-Reading)
+* [Properties](#properties)
+* [Values](#values)
+* [Selectors](#selectors)
+* [Nesting & Specificity](#nesting-&-specificity)
+* [Headings](#headings)
+* [Comments](#comments)
+* [Variables](#variables)
+* [Multiple Selectors](#multiple-celectors)
+* [Naming Conventions](#naming-conventions)
+* [Further Reading](#further-reading)
 
 
 ## Terminology
