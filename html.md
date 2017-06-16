@@ -20,6 +20,7 @@ Using HTML according to its purpose is important for accessibility, reuse, and c
 
 <!-- Recommended -->
 <a href="/contact">Contact</a>
+```
 
 ## Multimedia Fallback
 
@@ -31,6 +32,7 @@ Provide alternative contents for multimedia.
 
 <!-- Recommended -->
 <img src="student.png" alt="Photo of smiling student">
+```
 
 ## General Formatting
 Independent of the styling of an element (as CSS allows elements to assume a different role per display property), put every block, list, or table element on a new line. Also, indent them if they are child elements of a block, list, or table element.
