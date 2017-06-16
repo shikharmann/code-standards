@@ -139,6 +139,38 @@ Variables should be organzied into subsections with headings.
 ## Naming Conventions
 In order to manage a large codebase with a team of developers, having a set naming convention is necessary to keep the styles and code base managable.
 
-BEM is a naming convention 
+BEM is a naming convention that helps keep you
 
+BEM stands for Block Element Modifier. It provides a way to arrange CSS classes into independent modules. The idea but the most common one looks like this:
 
+  .block {}
+  .block__element {}
+  .block--modifier {}
+  .block__element--modifier {}
+
+Since our code base is going to grow and grow, it is also helpful to add itentifiers to the beginning of each class that organize file structure and file names. These identifiers are
+
+  t = template
+  c = component
+  u = utility
+
+Templates are saved in the folder `templates` as partials. The styles for `t-home`, for example, are in `templates/_home.scss`. Template classes are used if a page needs it's own specific styles that components cannot cover. For example `t-home`. Other classes within `home` that are part of this template will be sub elements, for example `t-home__heading`.
+
+Components are styles that have been comportmentalized to be reusable. A button or card component, for example, are frequently used within a web app. Button styles, for example, are like below and saved in `components/_button`.
+
+  .c-button {
+    display: block;
+    padding: $unit $unit*2;
+  }
+
+  .c-button.c--primary {
+    background-color: $brand-green;
+  }
+
+Utilities are classes that belong to single CSS rules that can be applied easily to elements, and are saved in `utilities/_color`. For example:
+  
+  .u-color-white {
+    color: $white;
+  }
+
+It is important to note that the name of the template, component, or utility class and file should be the same. 
