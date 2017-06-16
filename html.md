@@ -42,6 +42,6 @@ Use double `("")` rather than single quotation marks `('')` around attribute val
 
 ## Further Reading
 To further the understanding of semantic HTML please make yourself familair with the following:
-*[HTML Element Index](https://developer.mozilla.org/en/docs/Web/HTML/Element)
-*[HTML Doctor Outlines](http://html5doctor.com/outlines/)
+* [HTML Element Index](https://developer.mozilla.org/en/docs/Web/HTML/Element)
+* [HTML Doctor Outlines](http://html5doctor.com/outlines/)
 
