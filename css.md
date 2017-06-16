@@ -4,6 +4,7 @@
 * [Terminology](#terminology)
 * [Properties](#properties)
 * [Values](#values)
+* [Shorthand Properties](#shorthand-properties)
 * [Selectors](#selectors)
 * [Nesting & Specificity](#nesting-&-specificity)
 * [Headings](#headings)
@@ -43,6 +44,26 @@ For example:
 Shorten hexidecimal color values to 3 digits when possible:
 
 `background: #fff;`
+
+## Shorthand Properties
+Use shorthand properties where possible.
+
+```
+<!-- Not recommended -->
+  card {
+    padding-top: 0 
+    padding-left: 7px
+    padding-right: 7px
+    padding-bottom: 7px
+  }
+
+<!-- Recommended -->
+  card {
+    padding: 0 $unit $unit
+  }
+```
+
+
 
 ## Selectors
 Selectors should be on a single line, with a space after the selector, followed by an opening brace. A selector should end with a closing brace on the next line. Following related selectors should be on the next line with one additional line space between them.
@@ -119,7 +140,7 @@ Subsections are defined for both subcomponent and modifiers
   
 ## Comments
  
-Comments go below the closest relating header and should be numbered. 
+Explain code as needed, where possible. Comments go below the closest relating header and should be numbered. 
 Comments should be written for anything that might be unclear, as well as anytime you’re positioning something absolute, or using a “magic number”.
 ```
   .card {
@@ -142,6 +163,19 @@ Variables should be created for anything that is used more than once and should 
 Variables should be organzied into subsections with headings. 
 
 ## Naming Conventions
+Use meaningful or generic ID and class names. Always class names that reflect the purpose of the element in question, or that are otherwise generic. 
+
+Use class names that are as short as possible but as long as necessary. Try to convey what a class is about while being as brief as possible. Using class names this way contributes to acceptable levels of understandability and code efficiency.
+
+Avoid qualifying ID and class names with type selectors.
+```
+<!-- Not recommended -->
+  div.card {
+    display: block;
+  }
+
+```
+
 In order to manage a large codebase with a team of developers, having a set naming convention is necessary to keep the styles and code base managable.
 
 BEM is a naming convention that helps keep you
@@ -153,8 +187,10 @@ BEM stands for Block Element Modifier. It provides a way to arrange CSS classes 
   .block--modifier {}
   .block__element--modifier {}
 ```
-## Styles Organization
 
+If you need to add an event to an element, add a class preceded with `js-`. Avoid using the same class for both styles and js events. 
+
+## Styles Organization
 Since our code base is going to grow and grow, we will strucutre the folders accordingly
 
   `/templates`
