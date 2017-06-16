@@ -83,7 +83,7 @@ Multiple selectors should each be on a single line, with no space after each com
 ## Headings
 Every file needs a header to describe what the file is for, and subheaders for each subsection. 
 
-/ c-card.scss
+/ card.scss
 ```
   // Card
   // ====
@@ -95,7 +95,7 @@ Every file needs a header to describe what the file is for, and subheaders for e
   
 Subsections are defined for both subcomponent and modifiers
 
-/ c-card.scss
+/ card.scss
 ```
   ...
   
@@ -122,7 +122,7 @@ Subsections are defined for both subcomponent and modifiers
 Comments go below the closest relating header and should be numbered. 
 Comments should be written for anything that might be unclear, as well as anytime you’re positioning something absolute, or using a “magic number”.
 ```
-  .c-card {
+  .card {
     position: relative;
   }
   
