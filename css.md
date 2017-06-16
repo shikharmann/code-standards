@@ -1,7 +1,7 @@
 # CSS Code Standards
 
 ## Table of Contents
-* [Terminology](#terminology)
+* [Terminology](##terminology)
 * [Properties](#Properties)
 * [Values](#Values)
 * [Selectors](#Selectors)
@@ -14,7 +14,7 @@
 * [Further Reading](#Further-Reading)
 
 
-# Terminology
+## Terminology
 Concise terminology used in these standards:
 
   .selector {
