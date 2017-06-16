@@ -1,18 +1,18 @@
 # Javascrip Code Standards
 
 ## Table of Contents
-*[Braces](#braces)
-*[Class Literals](#class-literals)
-*[Function Expressions](#function-expressions)
-*[Switch statements](#switch-statements)
-*[Statements](#statements)
-*[Comments](##comments)
-*[Local variable declarations](#local-variable-declarations)
-*[Array Literals](#array-literals)
-*[Object Literals](#object-literals)
-*[Functions](##functions)
-*[Naming](#naming)
-*[]()
+* [Braces](#braces)
+* [Class Literals](#class-literals)
+* [Function Expressions](#function-expressions)
+* [Switch statements](#switch-statements)
+* [Statements](#statements)
+* [Comments](##comments)
+* [Local variable declarations](#local-variable-declarations)
+* [Array Literals](#array-literals)
+* [Object Literals](#object-literals)
+* [Functions](##functions)
+* [Naming](#naming)
+* []()
 
 
 ## Braces
