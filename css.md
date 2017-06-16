@@ -1,7 +1,7 @@
 # CSS Code Standards
 
 ## Table of Contents
-* [Terminology](#Terminology)
+* [Terminology](##Terminology)
 * [Properties](#Properties)
 * [Values](#Values)
 * [Selectors](#Selectors)
