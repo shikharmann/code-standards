@@ -12,7 +12,6 @@
 * [Object Literals](#object-literals)
 * [Functions](##functions)
 * [Naming](#naming)
-* []()
 
 
 ## Braces
