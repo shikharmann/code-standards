@@ -8,7 +8,6 @@ The following are the CSS and style organization coding styles that should be co
 * [ HTML ](html.md)
 * [ CSS ](css.md)
 * [ Javascript ](js.md)
-* [ Ruby ](ruby.md)
-* [ Rails ](rails.md)
+* [ Ruby & Rails ](ruby.md)
 
 
