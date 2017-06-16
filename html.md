@@ -1,12 +1,11 @@
 # HTML Code Standards
 
 ## Table of Contents
-*[Semantics](#semantics)
-*[Multimedia Fallback](#multimedia-fallback)
-*[General Formatting](#general-formatting)
-*[HTML Quotation Marks](#html-quotation-marks)
-*[Further Reading (recommended)](#further-reading)
-*[]()
+* [Semantics](#semantics)
+* [Multimedia Fallback](#multimedia-fallback)
+* [General Formatting](#general-formatting)
+* [HTML Quotation Marks](#html-quotation-marks)
+* [Further Reading (recommended)](#further-reading)
 
 ## Semantics
 Use HTML according to its purpose.
