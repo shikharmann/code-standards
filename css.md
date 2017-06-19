@@ -169,6 +169,8 @@ Variables should be organzied into subsections with headings.
 ## Naming Conventions
 Use meaningful or generic ID and class names. Always class names that reflect the purpose of the element in question, or that are otherwise generic. 
 
+Class names are written in **lower case** and with underscores (`_`) or dashes (`-`). 
+
 Use class names that are as short as possible but as long as necessary. Try to convey what a class is about while being as brief as possible. Using class names this way contributes to acceptable levels of understandability and code efficiency.
 
 Avoid qualifying ID and class names with type selectors.
