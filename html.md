@@ -5,6 +5,8 @@
 * [Multimedia Fallback](#multimedia-fallback)
 * [General Formatting](#general-formatting)
 * [HTML Quotation Marks](#html-quotation-marks)
+* [Inline-Styles](#inline-styles)
+* [Anchor tags & Buttons](#anchor-tags-&-buttons)
 * [Further Reading (recommended)](#further-reading)
 
 ## Semantics
@@ -39,6 +41,18 @@ Independent of the styling of an element (as CSS allows elements to assume a dif
 
 ## HTML Quotation Marks
 Use double `("")` rather than single quotation marks `('')` around attribute values.
+
+## Inline-Styles
+*Do not* use inline styles. 
+
+## Anchor tags & Buttons
+Use an anchor element to link to a new page. Use a button element for app behaviour.
+
+```
+  <a href="/new-page">New Page</a>
+  <button type="submit">Submit</button>
+  
+```
 
 ## Further Reading
 To further the understanding of semantic HTML please make yourself familair with the following:

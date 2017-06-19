@@ -7,6 +7,7 @@
 * [Shorthand Properties](#shorthand-properties)
 * [Selectors](#selectors)
 * [Nesting & Specificity](#nesting-&-specificity)
+* [Inline-Styles](#inline-styles)
 * [Headings](#headings)
 * [Comments](#comments)
 * [Variables](#variables)
@@ -90,6 +91,9 @@ Avoid very complex child and descendant selectors. Just like Inception, never go
 Nesting selectors the rules more specific, and specificity can make styling very complicated and often is the reason our CSS rules aren't being correctly applied. 
 
 In order to keep specificity low, avoid using IDs in CSS. 
+
+## Inline-Styles
+*Do not* use inline styles. 
 
 ## Multiple Selectors
 Multiple selectors should each be on a single line, with no space after each comma.
