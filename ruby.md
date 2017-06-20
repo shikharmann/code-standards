@@ -11,6 +11,7 @@
 * [Whitespace](#whitespace)
 * [Naming](#naming)
 * [Classes & Modules](##classes-and-modules)
+* [Tags](#tags)
 * [Exceptions](##exceptions)
 
 ## Indentation
@@ -124,12 +125,15 @@ Trailing whitespace always makes noises in version control system, it is meaning
 
 * Use `snake_case` for naming files and directories.
 * Use `SCREAMING_SNAKE_CASE` for other constants.
+
+
 ```
   # bad
   SomeConst = 5
 
   # good
   SOME_CONST = 5
+
 ```
 
 ## Classes & Modules
@@ -139,6 +143,18 @@ Trailing whitespace always makes noises in version control system, it is meaning
 * Avoid the use of `attr`. Use `attr_reader` and `attr_accessor` instead
 * Avoid the usage of class (@@) variables due to their "nasty" behavior in inheritance.
 * Use def self.method to define class methods. This makes the code easier to refactor since the class name is not repeated.
+
+## Tags
+Avoid using HTML tags and use Rails tags instead. 
+
+```
+  <!-- Not recommended -->
+  <a href="/edit">Edit</a>
+
+  <!--Recommended -->
+  <%= link_to edit_campaign_type_path(:id => ctype.id) %>
+
+```
 
 ## Standard Error
 * Don't rescue Exception, rescue StandardError.
