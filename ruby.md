@@ -15,18 +15,7 @@
 * [Exceptions](##exceptions)
 
 ## Indentation
-This is one of the most widely adapted and agreed upon style guidelines in the Ruby community. Use 2 space indentation instead of 4 space indentation. 
-
-```
-  def some_method
-    some_var = true
-    if some_var
-      do_something
-    else
-      do_something_else
-    end
-  end
-```
+Although the most widely adapted and agreed upon style guidelines in the Ruby community is to use 2 space indentation, we  use **4 space indentation** for the sake of consistency.  
 
 ## Predicate Methods
 Define predicate methods with `?` and keep inline with idiomaticness and readability of Ruby.
