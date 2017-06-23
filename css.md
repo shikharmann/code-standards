@@ -196,6 +196,8 @@ BEM stands for Block Element Modifier. It provides a way to arrange CSS classes 
 
 If you need to add an event to an element, add a class preceded with `js-`. Avoid using the same class for both styles and js events. 
 
+To prevent bugs due to class naming, new classes created for templates or components should be preceeded with a `t-` or `c-` respectively. 
+
 ## Styles Organization
 Since our code base is going to grow and grow, we will strucutre the folders accordingly
 
